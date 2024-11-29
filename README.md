@@ -28,19 +28,26 @@ A Python-based command-line interface for controlling and monitoring ROBD2 (Redu
 
 2. Create a virtual env with conda
 
-3. `conda activate 'venv'`
+  ```bash                                                                                │
+  conda create -n myenv python=3.12                                                                 │
+  ```  
+  ```bash
+  conda activate <myvenv>`
+  ```
 
 4. Install required packages
 
+ ```bash
 `pip install pyserial rich`
-
+ ```
 
 ## Usage
 
 Run the application with default settings:
 
+ ```bash
 `python COM_serial.py`
-
+ ```
 
 ### Command Line Options
 
