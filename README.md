@@ -24,21 +24,23 @@ A Python-based command-line interface for controlling and monitoring ROBD2 (Redu
 
 1. Clone the repository:
 
-`git clone https://github.com/strikerdlm/ROBD2.git`
+ ```bash
+  git clone https://github.com/strikerdlm/ROBD2.git
+ ```
 
 2. Create a virtual env with conda
 
-  ```bash                                                                                │
-  conda create -n myenv python=3.12                                                                 │
+  ```bash                                                                                
+  conda create -n myenv python=3.12                                                               
   ```  
   ```bash
-  conda activate <myvenv>`
+  conda activate <myvenv>
   ```
 
 4. Install required packages
 
  ```bash
-`pip install pyserial rich`
+  pip install pyserial rich
  ```
 
 ## Usage
@@ -46,7 +48,7 @@ A Python-based command-line interface for controlling and monitoring ROBD2 (Redu
 Run the application with default settings:
 
  ```bash
-`python COM_serial.py`
+  python COM_serial.py
  ```
 
 ### Command Line Options
@@ -58,7 +60,9 @@ Run the application with default settings:
 
 Example:
 
-`python COM_serial.py --port COM3 --baudrate 9600 --debug`
+ ```bash
+  python COM_serial.py --port COM3 --baudrate 9600 --debug
+ ```
 
 
 ## Menu Structure
@@ -72,10 +76,7 @@ Example:
 
 ## Device Support
 
-Compatible with ROBD2 devices:
-- ROBD2-9515
-- ROBD2-9516
-- ROBD2-9471
+Compatible with ROBD2 devices
 
 ## Data Logging
 
