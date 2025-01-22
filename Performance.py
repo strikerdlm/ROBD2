@@ -1,3 +1,5 @@
+# Author: Diego Malpica MD
+
 import serial
 import csv
 import time
