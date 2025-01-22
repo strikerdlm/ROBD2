@@ -1,3 +1,5 @@
+# Author: Diego Malpica MD
+
 import serial
 import sys
 import logging
