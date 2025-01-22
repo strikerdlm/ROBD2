@@ -1,3 +1,5 @@
+# Author: Diego Malpica MD
+
 import serial
 import time
 from datetime import datetime
